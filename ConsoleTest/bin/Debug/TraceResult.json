@@ -1,0 +1,146 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "time": 456,
+      "methods": [
+        {
+          "name": "Main",
+          "classname": "Program",
+          "time": 456,
+          "methods": [
+            {
+              "name": "MethodA",
+              "classname": "A",
+              "time": 319,
+              "methods": [
+                {
+                  "name": "MethodA1",
+                  "classname": "A",
+                  "time": 247,
+                  "methods": [
+                    {
+                      "name": "MethodA",
+                      "classname": "A",
+                      "time": 72,
+                      "methods": [
+                        {
+                          "name": "MethodB",
+                          "classname": "B",
+                          "time": 41,
+                          "methods": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MethodA",
+                      "classname": "A",
+                      "time": 71,
+                      "methods": [
+                        {
+                          "name": "MethodB",
+                          "classname": "B",
+                          "time": 40,
+                          "methods": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MethodA",
+                      "classname": "A",
+                      "time": 71,
+                      "methods": [
+                        {
+                          "name": "MethodB",
+                          "classname": "B",
+                          "time": 40,
+                          "methods": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "MethodB",
+                  "classname": "B",
+                  "time": 41,
+                  "methods": []
+                }
+              ]
+            },
+            {
+              "name": "MethodB",
+              "classname": "B",
+              "time": 60,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "time": 314,
+      "methods": [
+        {
+          "name": "M2",
+          "classname": "Program",
+          "time": 314,
+          "methods": [
+            {
+              "name": "MethodA",
+              "classname": "A",
+              "time": 71,
+              "methods": [
+                {
+                  "name": "MethodB",
+                  "classname": "B",
+                  "time": 40,
+                  "methods": []
+                }
+              ]
+            },
+            {
+              "name": "MethodB",
+              "classname": "B",
+              "time": 40,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "time": 314,
+      "methods": [
+        {
+          "name": "M2",
+          "classname": "Program",
+          "time": 314,
+          "methods": [
+            {
+              "name": "MethodA",
+              "classname": "A",
+              "time": 72,
+              "methods": [
+                {
+                  "name": "MethodB",
+                  "classname": "B",
+                  "time": 41,
+                  "methods": []
+                }
+              ]
+            },
+            {
+              "name": "MethodB",
+              "classname": "B",
+              "time": 41,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <thread id="1" time="456">
+    <method name="Main" time="456" class="Program">
+      <method name="MethodA" time="319" class="A">
+        <method name="MethodA1" time="247" class="A">
+          <method name="MethodA" time="72" class="A">
+            <method name="MethodB" time="41" class="B" />
+          </method>
+          <method name="MethodA" time="71" class="A">
+            <method name="MethodB" time="40" class="B" />
+          </method>
+          <method name="MethodA" time="71" class="A">
+            <method name="MethodB" time="40" class="B" />
+          </method>
+        </method>
+        <method name="MethodB" time="41" class="B" />
+      </method>
+      <method name="MethodB" time="60" class="B" />
+    </method>
+  </thread>
+  <thread id="3" time="314">
+    <method name="M2" time="314" class="Program">
+      <method name="MethodA" time="71" class="A">
+        <method name="MethodB" time="40" class="B" />
+      </method>
+      <method name="MethodB" time="40" class="B" />
+    </method>
+  </thread>
+  <thread id="4" time="314">
+    <method name="M2" time="314" class="Program">
+      <method name="MethodA" time="72" class="A">
+        <method name="MethodB" time="41" class="B" />
+      </method>
+      <method name="MethodB" time="41" class="B" />
+    </method>
+  </thread>
+</root>
